@@ -9,13 +9,13 @@ import cv2
 
 
 
-modelLiverFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/weights/liver_weights.h5"
-modelSpleenFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/weights/spleen_weights.h5"
-modelContrastFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/weights/contrast_weights.h5"
-stackFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/data/test_stack.nii.gz"
+modelLiverFilePath = "weights/liver_weights.h5"
+modelSpleenFilePath = "weights/spleen_weights.h5"
+modelContrastFilePath = "weights/contrast_weights.h5"
+stackFilePath = "data/test_stack.nii.gz"
 
-outputLiverMaskFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/data/liver.mask.nii.gz"
-outputSpleenMaskFilePath = "/home/mattmac22/projects/net_learn/liver_and_spleen/merge_run_old/data/spleen.mask.nii.gz"
+outputLiverMaskFilePath = "data/liver.mask.nii.gz"
+outputSpleenMaskFilePath = "data/spleen.mask.nii.gz"
 
 zBatchSize = 32
 
